@@ -1,0 +1,7 @@
+material ui was very popular 2 years ago but after tailwind css , it became less popular ,
+because it has different types of syntax than html,js but tilwind is similar
+we use <Stack/> instead of div 
+<Typography/> instead of simply writing h1,p or pre
+direction={row/column} isntead of flex flex wrap
+
+so we just did practice of material ui but tailwind was used afterwards

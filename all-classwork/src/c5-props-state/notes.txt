@@ -1,0 +1,7 @@
+props are properties and data that are used in child functions from parent functions
+props are immutable (unchangeable)
+they are used as parameters
+
+
+states are mutable data that can be used as arguments and can be used with array of objects
+with iteration of .map loop so that the data gets put into ui dynamicallly

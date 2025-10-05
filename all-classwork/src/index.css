@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  color:rgb(184, 58, 184);
+  font-weight: bold;
+  font-size: 25px;
+}

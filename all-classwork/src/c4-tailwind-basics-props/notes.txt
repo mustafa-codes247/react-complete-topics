@@ -1,0 +1,5 @@
+we use tailwind for styling , it is similar to bootstrap css
+which uses 12 columns for page.
+
+we went to tailwind website , choose verison previous than latest
+and then click on framework > vite > and followed the isntructions
