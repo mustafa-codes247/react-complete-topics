@@ -1,0 +1,12 @@
+react js is library of javascript
+which is used to make modern , interactive ui designs
+we can make reusable components with it
+it is used to make single page application
+
+SPA is website in which we can navigate to components and pages without reloading the whole website
+it makes the user experience seamless
+
+SPA works :it loads the whole DOM only once and when the user navigate to other pages or components , 
+virtual dom actually get changes and real dom remains as it is. this is called Reconcilation.
+
+react is also called mini framework although it is mainlya  library.
