@@ -8,7 +8,7 @@ const Functionsyntax = () => {
         {/* xml is written inside these fucntions , its similar to html but its not */}
         {/* always start func name with capital letter */}
 
-        <h1>this is basic function</h1>
+        <h1 style={{fontSize:"bold"}}>this is basic function</h1>
       
     </div>
   )

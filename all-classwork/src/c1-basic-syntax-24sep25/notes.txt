@@ -9,4 +9,13 @@ it makes the user experience seamless
 SPA works :it loads the whole DOM only once and when the user navigate to other pages or components , 
 virtual dom actually get changes and real dom remains as it is. this is called Reconcilation.
 
-react is also called mini framework although it is mainlya  library.
+react is also called mini framework although it is mainly a  library.
+
+we usualy use vite for creating react app, 1st class was installing direectly using npm start.
+
+but afterwards we installed using npm create vite@latest
+
+writing css:
+syntax is written this way:
+
+style={{fontSize:"bold"}}

@@ -1,0 +1,6 @@
+notesin this class , our main task was to make single page application using react router dom
+we first installed npm i react-router-dom
+
+then imported route, routes and Browserrouter
+
+then added : link to instead f anchor tag(a href) in navbar where links have to be clicked and routed to required page.
