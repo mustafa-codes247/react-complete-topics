@@ -49,13 +49,13 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="about" className="hover:text-blue-500">
-              About
+            <Link to="props" className="hover:text-blue-500">
+              props(child/grand-child)
             </Link>
           </li>
           <li>
-            <Link to="services" className="hover:text-blue-500">
-              Services
+            <Link to="useeffect" className="hover:text-blue-500">
+              UseEffect
             </Link>
           </li>
         </ul>

@@ -1,0 +1,10 @@
+useEffect is used to run code when something
+happens in your component —
+like when it loads, updates, or unmounts.
+
+Common Uses:
+
+Fetching data from an API
+Running code only once when the page loads
+Responding when a variable or state changes
+Cleaning up timers, event listeners, etc.
