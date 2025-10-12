@@ -1,7 +1,51 @@
 material ui was very popular 2 years ago but after tailwind css , it became less popular ,
 because it has different types of syntax than html,js but tilwind is similar
+
+installation:
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+
 we use <Stack/> instead of div 
 <Typography/> instead of simply writing h1,p or pre
 direction={row/column} isntead of flex flex wrap
 
+
 so we just did practice of material ui but tailwind was used afterwards
+
+DELETION:
+we then deleted the packages from package.json file from dependencies or devdependencies onject
+
+
+basic syntax for reference:
+
+import React from "react";
+import { Button, Typography, Container, TextField } from "@mui/material";
+import { AddCircle } from "@mui/icons-material";
+
+function App() {
+  return (
+    <Container style={{ marginTop: "2rem" }}>
+      <Typography variant="h4" gutterBottom>
+        Welcome to Material UI 🚀
+      </Typography>
+
+      <TextField
+        label="Enter your name"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+
+      <Button
+        variant="contained"
+        color="primary"
+        startIcon={<AddCircle />}
+        onClick={() => alert("Hello from MUI!")}
+      >
+        Click Me
+      </Button>
+    </Container>
+  );
+}
+
+export default App;

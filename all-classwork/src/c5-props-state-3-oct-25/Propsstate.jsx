@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 
+
 const Propsstate = (props) => {
+  
   const [count,setCount]=useState(0)
 
   const sum=()=>{

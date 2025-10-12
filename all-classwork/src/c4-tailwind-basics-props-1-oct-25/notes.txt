@@ -2,4 +2,43 @@ we use tailwind for styling , it is similar to bootstrap css
 which uses 12 columns for page.
 
 we went to tailwind website , choose verison previous than latest
-and then click on framework > vite > and followed the isntructions
+
+
+click on framework > vite > and followed the isntructions
+
+https://v3.tailwindcss.com/docs/guides/vite
+
+then vite will create node modules automatically with other files 
+then npm run dev in teminal
+
+tailwind basic syntax of using classes:
+
+import React from "react";
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold text-blue-600 mb-4">
+        Welcome to Tailwind CSS 🚀
+      </h1>
+
+      <input
+        type="text"
+        placeholder="Enter your name"
+        className="border border-gray-300 rounded-lg px-4 py-2 w-64 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      />
+
+      <button
+        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg shadow-md transition-all"
+        onClick={() => alert("Hello from Tailwind!")}
+      >
+        Click Me
+      </button>
+    </div>
+  );
+}
+
+export default App;
+
+
+

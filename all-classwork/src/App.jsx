@@ -9,6 +9,8 @@ import Footer from './c7-routing-component-8-oct-25/Footer'
 import Cars from './c7-landing-page-task/Cars'
 import Trucks from './c7-landing-page-task/Trucks'
 import Bikes from './c7-landing-page-task/Bikes'
+import FbHomePage from './components-fb-home-page/FbHomePage'
+
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Route path='counter' element={<Propsstate/>}></Route>
         
         <Route path='about' element={<About/>}></Route>
+        <Route path='fbhomepage' element={<FbHomePage/>}></Route>
+
         <Route path='services' element={<Services/>}></Route>
         <Route path='cars' element={<Cars/>}></Route>
         <Route path='bikes' element={<Bikes/>}></Route>

@@ -1,0 +1,72 @@
+
+
+Classes like:
+
+```jsx
+w-32, w-96, w-[400px], px-10
+```
+
+are *fixed* — they don’t shrink on small screens.
+
+✅ Fix:
+Use relative widths or responsive utilities:
+
+```jsx
+w-full           // takes all available space
+max-w-sm         // limits maximum width
+```
+
+Or use breakpoints:
+
+```jsx
+w-full md:w-1/2 lg:w-1/3
+```
+
+### 2. **Flex isn’t wrapping**
+
+If you have:
+
+```jsx
+<div className="flex gap-6">
+```
+
+the children may overflow horizontally on mobile.
+
+✅ Fix:
+
+```jsx
+<div className="flex flex-wrap gap-6">
+```
+
+---
+
+### 3. **No responsive breakpoints**
+
+Tailwind uses **breakpoints** like:
+
+| Screen       | Prefix | Example      |
+| ------------ | ------ | ------------ |
+| small phones | `sm:`  | `sm:text-sm` |
+| tablets      | `md:`  | `md:w-1/2`   |
+| laptops      | `lg:`  | `lg:flex`    |
+| desktops     | `xl:`  | `xl:gap-10`  |
+
+✅ Example:
+
+```jsx
+<div className="flex flex-col md:flex-row gap-4">
+```
+
+→ stacks vertically on phones, side-by-side on desktops.
+
+---
+
+### 4. **Parent container missing responsive padding**
+
+Sometimes your content hugs screen edges on mobile.
+
+✅ Fix:
+
+```jsx
+<div className="px-2 sm:px-4 md:px-8">
+```

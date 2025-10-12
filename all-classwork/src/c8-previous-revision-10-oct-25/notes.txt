@@ -1,0 +1,6 @@
+in this class previous concepts were revised like:
+
+=>react introduction
+=>components making
+=>props making and calling in child and grand child
+=>useState and managing state values
