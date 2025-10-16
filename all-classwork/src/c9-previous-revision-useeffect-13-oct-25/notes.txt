@@ -1,0 +1,5 @@
+in this class we learnt about using useeffect 
+with passing:
+1-empty dependency (it will run single time)
+2-no dependency (infinite loop) (don't do that practically)
+3-state and props 

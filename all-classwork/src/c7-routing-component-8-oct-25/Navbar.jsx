@@ -28,7 +28,7 @@ const Navbar = () => {
             onMouseLeave={() => setOpen(false)}
           >
             <button className="hover:text-blue-500">
-              Vehicles ▾
+              Dropdown ▾
             </button>
           {/* same as javascript's if (open) { ( */}
             {open && ( 
@@ -41,6 +41,12 @@ const Navbar = () => {
                 </li>
                 <li className="hover:bg-gray-100 rounded px-3 py-2">
                   <Link to="bikes">Bikes</Link>
+                </li>
+                 <li className="hover:bg-gray-100 rounded px-3 py-2">
+                  <Link to="form">Forms</Link>
+                </li>
+                 <li className="hover:bg-gray-100 rounded px-3 py-2">
+                  <Link to="c9useeffect">c9useEffect</Link>
                 </li>
               </ul>
             )}

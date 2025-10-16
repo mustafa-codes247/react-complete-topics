@@ -1,0 +1,23 @@
+useContext is used to manage state globally
+in easy words to access the values globally 
+
+traditionally , we use props to access the data from parent to child but using the data from parent to
+nth child (app>child>grandchild>grandgrandchild)
+
+we use this hook to make our site more faster
+
+we made a form with basic useState hook to show the written input value in input box
+
+
+react hooks rules:
+
+there are few rules for making react hooks:
+hooks can't be made
+1-inside conditions or loops
+2-after conditional return statement
+3-in event handlers
+4-class components
+5-inside function passing
+6-inside try/catch/finally block (error handling)
+
+only make them on top within main component
