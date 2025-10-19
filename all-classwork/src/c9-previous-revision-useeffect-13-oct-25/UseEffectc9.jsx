@@ -9,7 +9,7 @@ const UseEffectc9 = (props) => {
         // it runs every 2 seconds 
         setTimeout(()=>{
                 setCount(count+1)
-        },2000);
+        },1000);
 
         // setInterval runs one time only after 2 seconds b/c of this 2000 
         // setInterval(()=>{
@@ -30,6 +30,8 @@ const UseEffectc9 = (props) => {
   return (
     <>
     <div>
+        <h1>side loading an effect usng useEffect</h1>
+        <h1>this counter runs every 1 second:</h1>
         <h1 className='text-3xl'>c9 useEffect no dependency: {count}</h1>
         <h1 className='text-3xl'>c9 useEffect props as dependency: {props.data}</h1>
     </div>

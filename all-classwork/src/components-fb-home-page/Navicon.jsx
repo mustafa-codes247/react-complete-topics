@@ -24,7 +24,7 @@ const Navicon = () => {
     <div className='bg-white flex justify-between w-[40%]'>
 
       { icons.map((logo)=>(
-          <img src={logo.icon} alt="" className='w-12'/>
+          <button><img src={logo.icon} alt="" className='w-14'/></button>
       ))
       }   
         </div>

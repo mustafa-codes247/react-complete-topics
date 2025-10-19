@@ -6,17 +6,37 @@ const Shortcut = () => {
       page:"Aptech Shahrah e faisal",
       profile:"/s2.jpeg"
     },
+     {
+      page:"UK diaries",
+      profile:"/s4.jpeg"
+    },
     {
       page:"Stanford Univeristy",
       profile:"/s1.jpeg"
+    },
+    {
+      page:"Aptech Shahrah e faisal",
+      profile:"/s2.jpeg"
+    },
+    {
+      page:"UK diaries",
+      profile:"/s4.jpeg"
     },
      {
       page:"Apna Karachi",
       profile:"/s3.jpeg"
     },
+    {
+      page:"Aptech Shahrah e faisal",
+      profile:"/s2.jpeg"
+    },
      {
       page:"UK diaries",
       profile:"/s4.jpeg"
+    },
+    {
+      page:"Apna Karachi",
+      profile:"/s3.jpeg"
     },
     {
       page:"self care",

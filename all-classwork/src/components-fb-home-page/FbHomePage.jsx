@@ -11,7 +11,7 @@ const FbHomePage = () => {
     <div>
     <NavbarFb/>
     </div>
-   { <div className=" flex gap-6">
+   { <div className=" flex gap-6 bg-gray-100">
   <LeftSidebar/>
   <MainContent/>
   <RightSidebar/>
