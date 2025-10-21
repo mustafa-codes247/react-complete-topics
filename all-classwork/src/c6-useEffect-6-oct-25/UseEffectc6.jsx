@@ -5,6 +5,7 @@ import { ThemeContext } from '../c12-useRef-useContext-20-oct-25/ThemeContext'
 const UseEffectc6 = () => {
 
   const [user,setUser] = useState([]);
+  const [loadData, setLoadData] = useState(false);
   const { theme } = useContext(ThemeContext);
 
   // its styling is done in class 12 using useContext to change the theme globally
@@ -15,17 +16,30 @@ const UseEffectc6 = () => {
 };
  
 useEffect(()=> {
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then((res)=>res.json())
-    .then((res)=>setUser(res))
 
-  },[])
+    if (loadData) { // run only when button is clicked
+      fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res => res.json())
+        .then(data => setUser(data));
+    }
+
+}, [loadData]); // runs when loadData changes
+
 
   return (
     <>
       {/* useEffect is used to perform any task or effect when anything happens */}
       {/* for eg , when any value/state changed , fetch an api */}
     
+      <div>
+
+        <button 
+        onClick={() => setLoadData(true)} 
+        className="bg-blue-500 text-white px-4 py-2 rounded"
+      >
+        Fetch cards using useEffect
+      </button>
+      </div>
       <div className='grid grid-cols-4 gap-3'>
         {
           user.map((items)=>{
@@ -40,8 +54,7 @@ return(
   <div className='flex justify-around'>
     <button>edit</button>
     <button>delete</button>
-
-  </div>
+</div>
 
  </div>
 
