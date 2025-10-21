@@ -7,7 +7,7 @@ const NavbarFb = () => {
   return (
    
    <>
-   <div className='flex justify-between h-[70px] !bg-white shadow-md top-0 left-0 w-full z-50 px-4'>
+   <div className='flex justify-between h-[70px] bg-white bg-white sticky shadow-md top-0 left-0 w-full z-50 px-4'>
    <Navlogo/>
    <Navicon/>
    <Navoption/>

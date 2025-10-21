@@ -17,10 +17,10 @@ const Navoption = () => {
   ]
  return (
     < >
-    <div className='bg-white flex justify-evenly w-[25%]'>
+    <div className=' flex justify-evenly w-[25%]'>
 
       { options.map((opt)=>(
-          <img src={opt.icon} alt="" className=' bg-white'/>
+          <img src={opt.icon} alt="" />
       ))
       }   
         </div>

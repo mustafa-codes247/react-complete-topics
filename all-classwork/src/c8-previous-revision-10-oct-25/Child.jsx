@@ -15,7 +15,7 @@ const Child = () => {
   return (
   
     <div>
-      <h1 className='text-center bg-yellow-300'>using props in child</h1>
+      <h1 className='text-center bg-yellow-300'> c8 using props in child</h1>
       <GrandChild course={'MERN'} programming={course} value={values} />
 <C8Counter programming={course} value={values} />
     </div>

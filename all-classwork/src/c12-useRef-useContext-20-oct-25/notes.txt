@@ -1,0 +1,12 @@
+usecontext:
+
+is used to manage state (change variable value) globally , 
+as we can pass values from parent to child components using props
+but to use them in grandchild components , we have to pass that prop
+to each related child component ,thats called prop drilling and it
+affects the speed of website , to avoid this , we use useContext.
+
+useRef:
+
+is used to access dom elements directly without reRendering the component.
+as all other hooks reRender the component which affect the speed of website

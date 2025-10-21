@@ -1,12 +1,33 @@
-import React from 'react'
+// basic syntax for reference:
 
-const MaterialUiSyntax = () => {
+import { Button, Typography, Container, TextField } from "@mui/material";
+import { AddCircle } from "@mui/icons-material";
+
+function MaterialUiSyntax() {
   return (
-    <div>
-        <h1>material UI Syntax</h1>
-      
-    </div>
-  )
+    <Container style={{ marginTop: "2rem" }}>
+      <Typography variant="h4" gutterBottom>
+        Welcome to Material UI 🚀
+      </Typography>
+
+      <TextField
+        label="Enter your name"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+
+      <Button
+        variant="contained"
+        color="primary"
+        startIcon={<AddCircle />}
+        onClick={() => alert("Hello from MUI!")}
+      >
+        Click Me
+      </Button>
+    </Container>
+  );
 }
 
-export default MaterialUiSyntax
+export default MaterialUiSyntax;
+

@@ -1,9 +1,18 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useEffect } from 'react'
+import { ThemeContext } from '../c12-useRef-useContext-20-oct-25/ThemeContext'
 
 const UseEffectc6 = () => {
 
   const [user,setUser] = useState([]);
+  const { theme } = useContext(ThemeContext);
+
+  // its styling is done in class 12 using useContext to change the theme globally
+  const cardStyle = {
+  background: theme === "light" ? "#8a8a8aff" : "#fff",
+  color: theme === "light" ? "#fff" : "#000",
+  border: "1px solid #ccc",
+};
  
 useEffect(()=> {
     fetch('https://jsonplaceholder.typicode.com/users')
@@ -21,8 +30,8 @@ useEffect(()=> {
         {
           user.map((items)=>{
 return(
- <div key={items} className='bg-gray-200 py-6 px-6 mb-5 rounded-lg shadow'>
-  <h3>name: {items.name}</h3>
+ <div style={cardStyle} key={items} className=' py-6 px-6 my-5 rounded-lg shadow'>
+  <h3 >name: {items.name}</h3>
   <h3>username: {items.username}</h3>
   <h3>email: {items.email}</h3>
   <h3>address: {items.address.street}</h3>

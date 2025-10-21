@@ -27,7 +27,7 @@ const Mainreel = () => {
   return (
     < >
     
-     <div className="flex gap-3 p-4 bg-gray-100 w-[100%] justify-between">
+     <div className="flex gap-3 p-4 bg-white w-[100%] justify-between">
       {reelscount.map((r)=>(
 
          <div key={r} className="relative w-44 h-64 rounded-xl overflow-hidden">

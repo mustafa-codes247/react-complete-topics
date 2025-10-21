@@ -3,7 +3,7 @@ import React from "react";
 const Mainpost = () => {
   return (
     <>
-      <div className="h-[750px] bg-white my-5  shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-2xl overflow-hidden">
+      <div className="h-[750px]  my-5  shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-2xl overflow-hidden">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <img
