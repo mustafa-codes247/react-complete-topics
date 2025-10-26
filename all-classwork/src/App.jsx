@@ -3,7 +3,7 @@ import { Route,Routes } from 'react-router-dom'
 import {useContext } from "react";
 import Navbar from './c7-routing-component-8-oct-25/Navbar'
 import Home from './c7-routing-component-8-oct-25/Home'
-import Propsstate from './c5-props-state-3-oct-25/propsstate'
+import Propsstate from './c5-props-state-3-oct-25/Propsstate'
 import Footer from './c7-routing-component-8-oct-25/Footer'
 import Cars from './c7-dropdown/Cars'
 import Trucks from './c7-dropdown/Trucks'
