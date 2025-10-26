@@ -5,8 +5,8 @@ const Footer = () => {
   const {theme} = useContext(ThemeContext);
 
   const style={
-    background:theme=="light"?"#000":"#fff",
-    color:theme=="light"?"#fff":"#000",
+    background:theme=="light"?"#fff":"#000000",
+    color:theme=="light"?"#000":"#fff",
      transition: "all 0.3s ease",
   }
   return (
