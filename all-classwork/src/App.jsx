@@ -1,20 +1,20 @@
 
 import { Route,Routes } from 'react-router-dom'
-import { useState,useContext } from "react";
+import {useContext } from "react";
 import Navbar from './c7-routing-component-8-oct-25/Navbar'
 import Home from './c7-routing-component-8-oct-25/Home'
 import Propsstate from './c5-props-state-3-oct-25/propsstate'
 import Footer from './c7-routing-component-8-oct-25/Footer'
 import Cars from './c7-dropdown/Cars'
 import Trucks from './c7-dropdown/Trucks'
-import Bikes from './c7-dropdown/Bikes'
 import FbHomePage from './components-fb-home-page/FbHomePage'
 import Props from './c7-routing-component-8-oct-25/Props'
 import UseEffect from './c7-routing-component-8-oct-25/UseEffect'
 import Form from './c10-11-form(useState)-useContext-15-oct-25/Form'
 import UseEffectc9 from './c9-previous-revision-useeffect-13-oct-25/UseEffectc9'
 import { ThemeContext } from './c12-useRef-useContext-20-oct-25/ThemeContext'
-import C12Main from './c12-useRef-useContext-20-oct-25/C12Main';
+import C12Main from './c12-useRef-useContext-20-oct-25/C12Main'
+import Counter from './c14-redux-toolkit-24-oct-25/Counter'
 
 
 const App = () => {
@@ -40,11 +40,12 @@ const App = () => {
 
         <Route path='useeffect' element={<UseEffect/>}></Route>
         <Route path='cars' element={<Cars/>}></Route>
-        <Route path='bikes' element={<Bikes/>}></Route>
          <Route path='trucks' element={<Trucks/>}></Route>
           <Route path='form' element={<Form/>}></Route>
           <Route path='c9useeffect' element={<UseEffectc9 data= {'Asad'}/>}></Route>
           <Route path='c12useref-usecontext' element={<C12Main/>}></Route>
+          <Route path='c14redux' element={<Counter/>}></Route>
+          
           
       </Routes>
       <Footer/>

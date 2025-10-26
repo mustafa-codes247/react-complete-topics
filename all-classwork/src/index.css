@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1{
-  color:rgb(48, 85, 206);
+ 
   font-weight: bold;
   font-size: 25px;
 }

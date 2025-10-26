@@ -1,0 +1,30 @@
+we use Redux toolkit to manage state globally,
+but this was also possible with useContext then why we used it .
+because it had 1 problem.
+
+iin usecontext , we still had to use useState inside usecontext
+to manage the state, that is ok for small projects but for big projects,
+where we have to call multiple apis, we have to use REdux toolkit.
+
+
+there are 5 steps for using redux tolkit:
+https://redux-toolkit.js.org/tutorials/quick-start
+
+step1: install redux toolit:
+npm install @reduxjs/toolkit react-redux
+
+step2: create store:
+just a file named store.js inside src folder
+
+step3 : create slicer file
+where actual function is performed like increament/decreament
+
+step4: import that slicer file into store.js (as configureStore)
+
+step5: make jsx component where you using that function 
+
+step5: connect store.js to main.jsx file
+and wrap the whole app inside
+ <Provider store={store}>
+      <App />
+    </Provider>,

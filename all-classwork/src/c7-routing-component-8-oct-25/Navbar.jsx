@@ -27,7 +27,7 @@ const style={
           </li>
           <li>
             <Link to="fbhomepage" className="hover:text-blue-500">
-              Fb Home Page
+              C7 Task: Fb Home
             </Link>
           </li>
 
@@ -38,26 +38,43 @@ const style={
             onMouseLeave={() => setOpen(false)}
           >
             <button className="hover:text-blue-500 z-100">
-              C7 routing Dropdown ▾
+              All Classworks ▾
             </button>
           {/* same as javascript's if (open) { ( */}
             {open && ( 
-              <ul className="absolute bg-white shadow-lg mt-2 rounded-lg top-full p-2 w-40 mt-1 z-[9999]">
-                <li className="text-black rounded px-3 py-2">
-                  <Link to="cars">Cars</Link>
+              <ul className="absolute bg-white shadow-lg mt-2 rounded-lg top-full p-4 w-[200px] h-[400px]  z-[9999]">
+                 <li>
+            <Link to="useeffect" className="hover:text-blue-500 bg-gray-200 text-black my-1 py-3">
+              C6 UseEffect
+            </Link>
+          </li>
+          <li className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1 py-3">
+          <Link to="cars">C7 Routing Cars</Link>
                 </li>
-                <li className="text-black rounded px-3 py-2">
-                  <Link to="trucks">Trucks</Link>
+                <li className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1  py-3">
+                  <Link to="trucks">C7 Routing Trucks</Link>
                 </li>
-                <li className="text-black rounded px-3 py-2">
-                  <Link to="bikes">Bikes</Link>
+                <li className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1 py-3">
+                  <Link to="props">C8 props</Link>
                 </li>
-                 <li className="text-black rounded px-3 py-2">
-                  <Link to="form">C11 Forms</Link>
+                <li className=" hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1 py-3">
+                  <Link to="c9useeffect">C9 useEffect</Link>
+                </li>  
+                 <li className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1 py-3">
+                  <Link to="form">C10/11 Forms</Link>
                 </li>
-                 <li className="text-black rounded px-3 py-2">
-                  <Link to="c9useeffect">c9useEffect</Link>
-                </li>
+                <li>
+            <Link to="c12useref-usecontext" className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1  py-3">
+              C12 Ref/Context
+            </Link>
+          </li>
+          <li>
+            <Link to="c14redux" className="hover:text-blue-500 text-black rounded bg-gray-200 my-1 space-y-1 py-3 relative inline-block">
+              C14 Redux
+            </Link>
+          </li>
+                
+                 
                 
                
                 
@@ -67,23 +84,11 @@ const style={
             
           </li>
 
-          <li>
-            <Link to="props" className="hover:text-blue-500">
-              C8 props(child/grand-child)
-            </Link>
-          </li>
-          <li>
-            <Link to="useeffect" className="hover:text-blue-500">
-              C6 UseEffect
-            </Link>
-          </li>
-          <li>
-            <Link to="c12useref-usecontext" className="hover:text-blue-500">
-              C12 useRef/useContext
-            </Link>
-          </li>
+      
+         
+          
         </ul>
-         <button onClick={toggleTheme}>Change Theme (c12 useContext)</button>
+         <button onClick={toggleTheme}>C12 Change Theme </button>
       </div>
     </>
   );
