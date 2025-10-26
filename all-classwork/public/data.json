@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"Lavender soap",
+        "image":"/images/soap1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Rice soap",
+        "image":"/images/soap2.png"
+    },
+    {
+        "id":3,
+        "name":"Haldi soap",
+        "image":"/images/soap3.png"
+    },
+    {
+        "id":4,
+        "name":"Honey soap",
+        "image":"/images/soap4.jpeg"
+    },
+     {
+        "id":5,
+        "name":"Mint soap",
+        "image":"/images/soap5.jpeg"
+    },
+    {
+        "id":6,
+        "name":"Multani soap",
+        "image":"/images/soap6.jpeg"
+    },
+    {
+        "id":7,
+        "name":"Kashmir soap",
+        "image":"/images/soap7.jpeg"
+    },
+     {
+        "id":8,
+        "name":"Shea Butter soap",
+        "image":"/images/soap8.webp"
+    }
+]
