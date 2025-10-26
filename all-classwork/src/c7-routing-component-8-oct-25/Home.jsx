@@ -15,7 +15,7 @@ const Home = () => {
       <li className='bg-blue-500 py-2 my-2 rounded-md'>2-components making and using them</li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>3-Material UI </li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>4-Tailwind CSS UI</li>
-      <li className='bg-blue-500 py-2 my-2 rounded-md'>5-Props (properties) values that can be passed from parent to child <Link to="props" className='hover:text-blue-500'>->click</Link></li>
+      <li className='bg-blue-500 py-2 my-2 rounded-md'>5-Props (properties) values that can be passed from parent to child <Link to="props" className='hover:text-blue-500'>click</Link></li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>6-UseState for managing state (changing values of variables) </li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>7-UseEffect for performing side effect in website eg json data calling, setTimeOut etc </li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>8-useRef for targetting dom elements directly without component reRendering</li>
