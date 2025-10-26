@@ -11,7 +11,7 @@ const HomePage = () => {
        
         <NavbarHandmade/>
          <Banner/>
-         <BestSeller/>
+         <BestSeller limit={4}/>
          <FooterHandmade/>
          
     </div>

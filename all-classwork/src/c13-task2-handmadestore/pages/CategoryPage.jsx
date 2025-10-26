@@ -1,13 +1,14 @@
 import React from 'react'
 import NavbarHandmade from '../components/NavbarHandmade'
 import FooterHandmade from '../components/FooterHandmade'
+import CategoryImages from '../components/CategoryImages'
 
 const CategoryPage = () => {
   return (
     <>
       <div>
         <NavbarHandmade/>
-        <h1>handmade category page</h1>
+       <CategoryImages/>
         <FooterHandmade/>
         
       </div>

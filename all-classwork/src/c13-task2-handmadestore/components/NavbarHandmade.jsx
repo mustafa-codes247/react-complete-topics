@@ -14,7 +14,6 @@ const NavbarHandmade = () => {
           <li><Link to="/c13handmadesoap">Home</Link></li>
           <li><Link to="/hmbs">Best Sellers</Link></li>
           <li><Link to="/hmct">Category</Link></li>
-          <li><Link to="/hmna">New Arrivals</Link></li>
 
           <li><Link to="/hmab">About Us</Link></li>
           </ul>

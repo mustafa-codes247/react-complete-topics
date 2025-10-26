@@ -1,0 +1,40 @@
+[
+    {
+        "price":"Rs250",
+        "name":"1 soap",
+        "image":"/images/s1.jpeg"
+        
+    },
+    {
+        "price":"Rs450",
+        "name":"2 soaps",
+        "image":"/images/s2.jpeg"
+        
+    },
+    {
+       "price":"Rs650",
+        "name":"3 soaps",
+        "image":"/images/s3.jpeg"
+        
+    },
+    {
+        "price":"Rs790",
+        "name":"4 soaps",
+        "image":"/images/s4.jpeg"
+        
+    },
+     {
+        "price":"Rs990",
+        "name":"5 soaps",
+        "image":"/images/s5.jpeg"
+        
+
+    },
+    {
+       "price":"Rs1100",
+        "name":"6 soaps",
+        "image":"/images/s6.jpeg"
+        
+        
+    }
+]

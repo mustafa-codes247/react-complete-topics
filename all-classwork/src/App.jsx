@@ -20,7 +20,6 @@ import FbHomePage from './components-fb-home-page/FbHomePage'
 
 import BestSellerPage from './c13-task2-handmadestore/pages/BestSellerPage'
 import CategoryPage from './c13-task2-handmadestore/pages/CategoryPage'
-import NewArrivals from './c13-task2-handmadestore/pages/NewArrivals';
 import AboutHandmade from './c13-task2-handmadestore/pages/AboutHandmade';
 
 
@@ -59,7 +58,6 @@ const App = () => {
           <Route path='c13handmadesoap' element={<HomePage/>}></Route>
           <Route path='hmbs' element={<BestSellerPage/>}></Route>
           <Route path='hmct' element={<CategoryPage/>}></Route>
-          <Route path='hmna' element={<NewArrivals/>}></Route>
           <Route path='hmab' element={<AboutHandmade/>}></Route>
 
           
