@@ -14,6 +14,7 @@ import Form from './c10-11-form(useState)-useContext-15-oct-25/Form'
 import UseEffectc9 from './c9-previous-revision-useeffect-13-oct-25/UseEffectc9'
 import { ThemeContext } from './c12-useRef-useContext-20-oct-25/ThemeContext'
 import C12Main from './c12-useRef-useContext-20-oct-25/C12Main'
+import Counter from './c14-redux-toolkit-24-oct-25/Counter'
 
 
 const App = () => {
