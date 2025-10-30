@@ -30,35 +30,7 @@ const style={
             </Link>
           </li>
 
-          {/* tasks Dropdown */}
-          <li
-            className="relative"
-            onMouseEnter={() => setTasksOpen(true)}
-            onMouseLeave={() => setTasksOpen(false)}
-          >
-            <button className="hover:text-blue-500 z-100">tasks ▾</button>
-            {/* same as javascript's if (open) { ( */}
-            {tasksOpen && (
-              <ul className="absolute bg-white shadow-lg rounded-lg top-full p-4 w-[200px]   z-[9999]">
-                <li>
-                  <Link
-                    to="fbhomepage"
-                    className="hover:text-blue-500 text-black my-1 py-3"
-                  >
-                    C7 Fb Home
-                  </Link>
-                  <li>
-                  <Link
-                    to="c13handmadesoap"
-                    className="hover:text-blue-500 text-black my-1 py-3"
-                  >
-                    C13 handmade Soap
-                  </Link>
-                </li>
-                </li>
-              </ul>
-            )}
-          </li>
+          
 
           {/* classwork Dropdown */}
           <li
@@ -72,6 +44,14 @@ const style={
             {/* same as javascript's if (open) { ( */}
             {classworksOpen && (
               <ul className="absolute bg-white shadow-lg  rounded-lg top-full p-4 w-[200px]  z-[9999]">
+                <li>
+                  <Link
+                    to="counter"
+                    className="hover:text-blue-500 text-black my-3 py-3"
+                  >
+                    C5 props/state
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="useeffect"
@@ -110,11 +90,59 @@ const style={
                   >
                     C14 Redux
                   </Link>
+                  <li>
+                  <Link
+                    to="c15customhook"
+                    className="hover:text-blue-500 text-black rounded my-1 space-y-1 py-3 relative inline-block"
+                  >
+                    C15 CustomHooks
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="c15nestedroutes"
+                    className="hover:text-blue-500 text-black rounded my-1 space-y-1 py-3 relative inline-block"
+                  >
+                    C15 Nested Routes
+                  </Link>
+                </li>
+                </li>
+              </ul>
+            )}
+          </li>
+
+          {/* tasks Dropdown */}
+          <li
+            className="relative"
+            onMouseEnter={() => setTasksOpen(true)}
+            onMouseLeave={() => setTasksOpen(false)}
+          >
+            <button className="hover:text-blue-500 z-100">Assignments ▾</button>
+            {/* same as javascript's if (open) { ( */}
+            {tasksOpen && (
+              <ul className="absolute bg-white shadow-lg rounded-lg top-full p-4 w-[200px]   z-[9999]">
+                <li>
+                  <Link
+                    to="fbhomepage"
+                    className="hover:text-blue-500 text-black my-1 py-3"
+                  >
+                    C7 Fb Home
+                  </Link>
+                  <li>
+                  <Link
+                    to="c13handmadesoap"
+                    className="hover:text-blue-500 text-black my-1 py-3"
+                  >
+                    C13 handmade Soap
+                  </Link>
+                </li>
                 </li>
               </ul>
             )}
           </li>
         </ul>
+
+
         <button onClick={toggleTheme}>C12 Change Theme </button>
       </div>
     </>

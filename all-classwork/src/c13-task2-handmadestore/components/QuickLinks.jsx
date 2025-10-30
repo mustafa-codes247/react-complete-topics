@@ -12,6 +12,7 @@ const QuickLinks = () => {
           <li><Link to="/hmct">Category</Link></li>
 
           <li><Link to="/hmab">About Us</Link></li>
+          
         </ul>
       </div>
     </>

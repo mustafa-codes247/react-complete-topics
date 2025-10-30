@@ -21,6 +21,10 @@ import FbHomePage from './components-fb-home-page/FbHomePage'
 import BestSellerPage from './c13-task2-handmadestore/pages/BestSellerPage'
 import CategoryPage from './c13-task2-handmadestore/pages/CategoryPage'
 import AboutHandmade from './c13-task2-handmadestore/pages/AboutHandmade';
+import CustomHook from './c15-custom-hooks-27-oct-25/CustomHook';
+import NestedRouting from './c15-custom-hooks-27-oct-25/NestedRouting';
+import Nesting1 from './c15-custom-hooks-27-oct-25/Nesting1';
+import Nesting2 from './c15-custom-hooks-27-oct-25/Nesting2';
 
 
 const App = () => {
@@ -40,15 +44,27 @@ const App = () => {
       <Routes>
         {/* class work links */}
         <Route path='/' element={<Home/>}></Route>
-        <Route path='counter' element={<Propsstate/>}></Route>
-        <Route path='props' element={<Props/>}></Route>
-        <Route path='useeffect' element={<UseEffect/>}></Route>
-        <Route path='cars' element={<Cars/>}></Route>
-         <Route path='trucks' element={<Trucks/>}></Route>
-          <Route path='form' element={<Form/>}></Route>
-          <Route path='c9useeffect' element={<UseEffectc9 data= {'Asad'}/>}></Route>
-          <Route path='c12useref-usecontext' element={<C12Main/>}></Route>
-          <Route path='c14redux' element={<Counter/>}></Route>
+        <Route path='/counter' element={<Propsstate/>}></Route>
+        <Route path='/props' element={<Props/>}></Route>
+        <Route path='/useeffect' element={<UseEffect/>}></Route>
+        <Route path='/cars' element={<Cars/>}></Route>
+         <Route path='/trucks' element={<Trucks/>}></Route>
+          <Route path='/form' element={<Form/>}></Route>
+          <Route path='/c9useeffect' element={<UseEffectc9 data= {'Asad'}/>}></Route>
+          <Route path='/c12useref-usecontext' element={<C12Main/>}></Route>
+          <Route path='/c14redux' element={<Counter/>}></Route>
+          <Route path='/c15customhook' element={<CustomHook/>}></Route>
+
+          {/* for nested routing , the routed pages are settled within the main component */}
+          <Route path='/c15nestedroutes' element={<NestedRouting/>}>
+          <Route path='n1' element={<Nesting1/>}></Route>
+          <Route path='n2' element={<Nesting2/>}></Route>
+          </Route>
+          
+
+
+          
+          
           
 
           {/* C7 fb home task link */}
@@ -59,6 +75,11 @@ const App = () => {
           <Route path='hmbs' element={<BestSellerPage/>}></Route>
           <Route path='hmct' element={<CategoryPage/>}></Route>
           <Route path='hmab' element={<AboutHandmade/>}></Route>
+
+          <Route path='/*' element={<h1> page not found</h1>
+           }></Route>
+
+
 
           
       </Routes>

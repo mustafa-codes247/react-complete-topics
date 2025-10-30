@@ -11,8 +11,6 @@ const BestSellerPage = () => {
       <BestSeller limit={8} />
       <FooterHandmade/>
     </div>
-    
-      
     </>
   )
 }

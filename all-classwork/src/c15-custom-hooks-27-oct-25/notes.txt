@@ -1,0 +1,10 @@
+Custom hooks:
+
+we use custom hooks (custom functions) to use them
+again and again in multiple components.
+
+Nested Routing:
+
+we use nested routing to use nested routing like:
+daraz.pk/category/bags/man
+without reloading.
