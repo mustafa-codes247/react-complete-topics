@@ -108,10 +108,10 @@ const style={
                 </li>
                  <li>
                   <Link
-                    to="c16-axios-redux"
+                    to="c17-axios-redux"
                     className="hover:text-blue-500 text-black rounded my-1 space-y-1 py-3 relative inline-block"
                   >
-                    C16 axios/redux
+                    C17 axios/redux
                   </Link>
                 </li>
                 </li>

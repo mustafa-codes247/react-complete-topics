@@ -55,7 +55,7 @@ const App = () => {
           <Route path='/c12useref-usecontext' element={<C12Main/>}></Route>
           <Route path='/c14redux' element={<Counter/>}></Route>
           <Route path='/c15customhook' element={<CustomHook/>}></Route>
-          <Route path='/c16-axios-redux' element={<MainReduxAxios/>}></Route>
+          <Route path='/c17-axios-redux' element={<MainReduxAxios/>}></Route>
 
           
           
