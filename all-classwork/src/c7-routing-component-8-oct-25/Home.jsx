@@ -21,6 +21,9 @@ const Home = () => {
       <li className='bg-blue-500 py-2 my-2 rounded-md'>8-useRef for targetting dom elements directly without component reRendering</li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>8-useContext for managing state globally to avoid props drilling</li>
       <li className='bg-blue-500 py-2 my-2 rounded-md'>9-redux toolkit to manage state globally wihtout using useState</li>
+      <li className='bg-blue-500 py-2 my-2 rounded-md'>10-data fetching using axios</li>
+      <li className='bg-blue-500 py-2 my-2 rounded-md'>11- useNavigate , nested routing</li>
+      <li className='bg-blue-500 py-2 my-2 rounded-md'>12- making custom hooks for reusing them as function</li>
     </ol>
     </div>
     </div>
