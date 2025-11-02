@@ -25,6 +25,7 @@ import CustomHook from './c15-custom-hooks-27-oct-25/CustomHook';
 import NestedRouting from './c15-custom-hooks-27-oct-25/NestedRouting';
 import Nesting1 from './c15-custom-hooks-27-oct-25/Nesting1';
 import Nesting2 from './c15-custom-hooks-27-oct-25/Nesting2';
+import MainReduxAxios from './c-17-axios-and-redux-advanced-31-oct-25/MainReduxAxios';
 
 
 const App = () => {
@@ -54,6 +55,10 @@ const App = () => {
           <Route path='/c12useref-usecontext' element={<C12Main/>}></Route>
           <Route path='/c14redux' element={<Counter/>}></Route>
           <Route path='/c15customhook' element={<CustomHook/>}></Route>
+          <Route path='/c16-axios-redux' element={<MainReduxAxios/>}></Route>
+
+          
+          
 
           {/* for nested routing , the routed pages are settled within the main component */}
           <Route path='/c15nestedroutes' element={<NestedRouting/>}>
@@ -62,9 +67,6 @@ const App = () => {
           </Route>
           
 
-
-          
-          
           
 
           {/* C7 fb home task link */}

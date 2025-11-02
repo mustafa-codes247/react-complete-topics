@@ -1,0 +1,39 @@
+in this class we learnt 2 things:
+
+1-axios :
+    to call the api (json data fetching)
+    we use this to avoid using (.then) 2 times as 
+    it handles converting to json automatically
+
+axios functions:
+
+1-axios.post: add new data
+2-axios.delete: delete data
+3-axios.put: update (complete) data
+4-axios.patch: update specific data (less used)
+
+we also learnt about promises:
+
+when api (json data) is called,
+it works on promises basis means 
+at 1st it is at pending state,
+then 2ndly it is fulfilled.
+if not fulfilled , it is rejected.
+
+if calling multiple apis , finally is used too.
+
+1-pending
+2-fulfilled
+3-rejected
+4-finally
+
+2-Redux-toolkit-advance:
+
+we fetched data using redux toolkit , earlier we only used it for just counter funciton but redux is more than that.
+
+we made slice js file(function)
+postSlice.js and useSlice.js
+
+naming is camelCase
+
+
