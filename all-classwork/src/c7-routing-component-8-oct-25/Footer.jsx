@@ -17,7 +17,7 @@ const Footer = () => {
     <ul className='flex justify-center  gap-6' >
         <li>all rights reserved</li>
          <li>Email : mustafa@gmail.com</li>
-          <li>Maryland London</li>
+       
     </ul>
 
 </div>
